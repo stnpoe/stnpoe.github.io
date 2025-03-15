@@ -3,7 +3,7 @@
 }
 
 p {
-    color:red;
+    color: red;
     text-align: end;
 }
 
@@ -14,8 +14,11 @@ h1 {
 
 img {
     width: 35%;
+    display: block;
+    margin: 0 auto;
 }
 
 video {
-    text-align: center;
+    display: block;
+    margin: 0 auto;
 }
