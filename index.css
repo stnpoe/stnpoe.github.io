@@ -1,0 +1,22 @@
+.background {
+    background-color: black;
+}
+
+p {
+    color:red;
+    text-align: end;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+video {
+    padding-left: 320px;
+    width: 45%;
+}
+
+img {
+    width: 10%;
+}
