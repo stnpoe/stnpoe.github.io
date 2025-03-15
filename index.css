@@ -1,3 +1,4 @@
+/* Estilos generales */
 .background {
     background-color: black;
 }
@@ -21,24 +22,29 @@ img {
 video {
     display: block;
     margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    height: auto; /* Mantener la relación de aspecto */
 }
 
-
+/* Media query para pantallas pequeñas (como celulares) */
 @media (max-width: 600px) {
     h1 {
-        font-size: 1.5em;
+        font-size: 1.5em; /* Reducir tamaño de fuente en móviles */
     }
 
     p {
-        font-size: 1.1em;
-        text-align: center;
+        font-size: 1.1em; /* Reducir tamaño de texto para mayor legibilidad */
+        text-align: center; /* Alinear texto al centro */
     }
 
     img {
-        width: 80%;
+        width: 80%; /* Hacer la imagen más grande en pantallas pequeñas */
     }
 
     video {
-        width: 100%;
+        width: 100%; /* Aseguramos que el video ocupe todo el ancho */
+        max-width: 100%; /* Evitar que el video se haga más grande que la pantalla */
+        height: auto; /* Mantener la relación de aspecto */
     }
 }
